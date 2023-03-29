@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+<!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<img src="images/jamia-hamdard-top-logo.png" alt="">
+
+<a href="https://www.facebook.com/jamiahamdardofficial" target="_blank" class="fab fa-facebook-f"></a>
+<a href="https://twitter.com/jamia_hamdard" target="_blank" class="fab fa-twitter"></a>
+<a href="https://www.linkedin.com/in/jamia-hamdard-564653242/" target="_blank" class="fab fa-linkedin"></a>
+<a href="https://www.instagram.com/jamia_hamdardofficial/" target="_blank" class="fab fa-instagram"></a>
+<a href="https://www.youtube.com/channel/UCMN0N45UfpGT1zOBniYF73A" target="_blank" class="fab fa-youtube"></a>
+
+
+<div class="credit">&copy; copyright @ 2023 by <span>Mohd Arham</span> | All Rights Reserved!</div>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
