@@ -1,6 +1,6 @@
 # Arham-Minor-Project
 
-                            Project - Student HelpDesk
+ **Project - Student HelpDesk Management System**
 
 **Introduction**
 A web-based student helpdesk system is an online platform that enables students to request academic, technical, and administrative support from their educational institution.
@@ -8,31 +8,53 @@ A web-based student helpdesk system is an online platform that enables students 
 The system is accessible from anywhere with an internet connection, making it easier for students to receive timely assistance and improve their academic experience.
 
 
-Problem Statement
+**Problem Statement**
 
 
 
 
-Objective
+**Objective**
+The Help Desk Management System is a set of programs which run as a software providing assistance to all the complaints, queries and services to the customers within a set of organization. It is a web based software which has made the working procedure of organization much easy.
+This software will fulfill customer’s need by providing them technical support for their relevant issues as well as time period considered for solving the problems will be much shorter. All the queries and issues that will be posted in portal will be saved into the database for future reference. 
+The software is an intranet based software which can be used within the organization. It is basically a customer care management system. This software is very efficient in future time because it is an E-help desk system which tries to solve the problems of all the customer via internet medium and digital medium and thus reducing even the working time for the users too, to solve their problems and queries. 
+
+
+
+**Tools Used**
 
 
 
 
-Tools Used
+**Method**
+
+
+
+**Result Analysis**
 
 
 
 
-Method
-
-
-
-Result Analysis
+**References**
 
 
 
 
-References
+**Software Requirements**
+•	Web Server.
+•	Browser.
+•	DBMS Software
+**Technology Used**
+•	Java
+•	J2EE
+**Hardware Requirements**
+•	Hard Disk – 2 GB.
+•	RAM – 1 GB.
+•	Processor – Dual Core or Above.
+•	Mouse.
+•	Keyboard.
+•	Monitor.
+•	Printer.
+
 
 
 
