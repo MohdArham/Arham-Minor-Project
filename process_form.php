@@ -1,11 +1,12 @@
 <?php
-$servername = "localhost"; // Change this to your server name
-$username = "root"; // Change this to your MySQL username
-$password = ""; // Change this to your MySQL password
-$dbname = "contacts"; // Change this to your database name
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "contacts"; // update the database name to "contacts"
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
+
 
 // Check connection
 if ($conn->connect_error) {
@@ -28,7 +29,7 @@ $course = mysqli_real_escape_string($conn, $course);
 $gender = mysqli_real_escape_string($conn, $gender);
 
 // Prepare and bind parameters to the insert statement
-$stmt = $conn->prepare("INSERT INTO contacts (name, email, number, course, gender) VALUES (?, ?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO users (name, email, number, course, gender) VALUES (?, ?, ?, ?, ?)");
 $stmt->bind_param("ssiss", $name, $email, $number, $course, $gender);
 
 // Execute the statement
