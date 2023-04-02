@@ -12,9 +12,9 @@ body {
 .container {
 	margin: 50px auto;
 	padding: 20px;
-	background-color: #fff;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-	width: 400px;
+	background-color: #4CAF50;
+	box-shadow: 0px 10px 3px rgba(0, 0, 0, 0.2);
+	width: 35%;
 }
 
 h1 {
@@ -28,13 +28,14 @@ form {
 }
 
 .form-group {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 label {
 	margin-bottom: 10px;
 	display: block;
 }
+
 
 input[type="text"],
 input[type="password"] {
@@ -46,8 +47,8 @@ input[type="password"] {
 
 button[type="submit"] {
 	padding: 10px;
-	background-color: #4CAF50;
-	color: #fff;
+	background-color: #ffffff;
+	color: #040404;
 	border: none;
 	cursor: pointer;
 }
