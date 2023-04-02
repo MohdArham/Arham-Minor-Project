@@ -1,9 +1,8 @@
-<?php
-// Database credentials
-$servername = "localhost";
-$username = "root";
-$password = "12345678";
-$dbname = "arham";
+<!-- <?php
+$servername = "localhost"; // Change this to your server name
+$username = "root"; // Change this to your MySQL username
+$password = ""; // Change this to your MySQL password
+$dbname = "loginp"; // Change this to your database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -13,85 +12,40 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Define variables and initialize with empty values
-$username = $password = "";
-$username_err = $password_err = "";
+// Check if form is submitted
+if(isset($_POST['login'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-// Processing form data when form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    
-    // Validate username
-    if (empty(trim($_POST["username"]))) {
-        $username_err = "Please enter your username.";
-    } else {
-        $username = trim($_POST["username"]);
-    }
-    
-    // Validate password
-    if (empty(trim($_POST["password"]))) {
-        $password_err = "Please enter your password.";
-    } else {
-        $password = trim($_POST["password"]);
-    }
-    
-    // Check input errors before querying the database
-    if (empty($username_err) && empty($password_err)) {
-        
-        // Prepare a select statement
-        $sql = "SELECT id, username, password FROM users WHERE username = ?";
-        
-        if ($stmt = $conn->prepare($sql)) {
-            
-            // Bind variables to the prepared statement as parameters
-            $stmt->bind_param("s", $param_username);
-            
-            // Set parameters
-            $param_username = $username;
-            
-            // Attempt to execute the prepared statement
-            if ($stmt->execute()) {
-                
-                // Store result
-                $stmt->store_result();
-                
-                // Check if username exists, if yes then verify password
-                if ($stmt->num_rows == 1) {
-                    
-                    // Bind result variables
-                    $stmt->bind_result($id, $username, $hashed_password);
-                    if ($stmt->fetch()) {
-                        if (password_verify($password, $hashed_password)) {
-                            
-                            // Password is correct, start a new session
-                            session_start();
-                            
-                            // Store data in session variables
-                            $_SESSION["loggedin"] = true;
-                            $_SESSION["id"] = $id;
-                            $_SESSION["username"] = $username;
-                            
-                            // Redirect user to welcome page
-                            header("location: welcome.php");
-                            
-                        } else {
-                            // Display an error message if password is not valid
-                            $password_err = "The password you entered was not valid.";
-                        }
-                    }
-                } else {
-                    // Display an error message if username doesn't exist
-                    $username_err = "No account found with that username.";
-                }
-            } else {
-                echo "Oops! Something went wrong. Please try again later.";
-            }
-            
-            // Close statement
-            $stmt->close();
-        }
-    }
-    
-    // Close connection
-    $conn->close();
+    // Escape user inputs for security
+    $username = mysqli_real_escape_string($conn, $username);
+    $password = mysqli_real_escape_string($conn, $password);
+
+    // Hash the password for security
+    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+// Prepare and bind parameters to the insert statement
+$stmt = $conn->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
+$stmt->bind_param("ss", $username, $hashed_password);
+
+// Execute the statement
+if ($stmt->execute()) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $stmt->error;
 }
-?>
+
+// Close statement
+$stmt->close();
+
+
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+// Close connection
+$conn->close();
+?> -->

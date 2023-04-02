@@ -31,7 +31,7 @@
       <a href="https://jamiahamdard.edu/" target="_blank" class="logo" ><h2>Jamia Hamdard</h2></a>
 
       <nav class="navbar">
-         <a href="login.html">Sign In</a>
+         <a href="login.php">Sign In</a>
          <a href="#home">home</a>
          <a href="#about">about</a>
          <a href="#courses">courses</a>
@@ -419,7 +419,7 @@
          <img src="images/contact-img.svg" alt="">
       </div>
 
-      <form action="" method="post">
+      <form action="process_form.php" method="post">
          <span>your name</span>
          <input type="text" required placeholder="Enter your full name" maxlength="50" name="name" class="box">
          <span>your email</span>
