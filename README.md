@@ -9,13 +9,7 @@
 - Objective
 - Requirments
 - Installation
-- Configuration
-- Troubleshooting
-- FAQ
 - Maintainers
-Requirements
-
-
 
 # Introduction
 
@@ -45,10 +39,13 @@ The optional recommended modules section lists modules that are not required, bu
 
 
 ## Installation
+To run the website locally, follow these steps:
 
-Install as you would normally install a contributed Drupal module. For further
-information, see
-[Installing Drupal Modules](https://www.drupal.org/docs/extending-drupal/installing-drupal-modules).
+1. Clone the repository to your local machine
+2. Set up a local server environment using XAMPP or similar software
+3. Import the SQL database provided in the database folder
+4. Update the database connection settings in the config.php file
+5. Launch the website by opening the index.html file in your web browser
 
 ## Configuration
 
@@ -74,14 +71,38 @@ Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScrip
 ## Refernces
 ## Software Requirements
 ## Technology Used
++ HTML-front-end development
+HTML stands for Hypertext Markup Language, which is used for creating the structure and content of web pages. In the Student Helpdesk project, HTML is used to define the layout and structure of the web pages that make up the application. HTML tags are used to create elements such as forms, buttons, text fields, and other user interface components.
++ CSS- Front-end development
+CSS stands for Cascading Style Sheets and is used to add style and formatting to web pages. In the Student Helpdesk project, CSS is used to define the visual appearance of the web pages, including the colors, fonts, and layout. CSS stylesheets are linked to the HTML pages to apply the desired visual design.
+
++ JavaScript client-side scripting
+JavaScript is a programming language used for adding interactive features and behavior to web pages. In the Student Helpdesk project, JavaScript is used to validate form inputs, perform client-side data manipulation, and handle events such as button clicks and form submissions.
++ PHP server-side scripting
+ PHP stands for Hypertext Preprocessor, and it is a server-side scripting language used for building dynamic web applications. In the Student Helpdesk project, PHP is used for handling server-side requests, processing form data, connecting to databases, and generating dynamic content.
++ MySQL database management
+MySQL is a popular open-source database management system used for storing and managing data. In the Student Helpdesk project, MySQL is used to store user data, discussion forum posts, and other information related to the application. The database is designed using SQL, and PHP scripts are used to interact with the database and retrieve or modify data as needed.
+
+Bootstrap front-end framework
+Bootstrap is a popular front-end framework used for building responsive and mobile-first web applications. In the Student Helpdesk project, Bootstrap is used to provide a consistent and modern visual design across all web pages. Bootstrap components such as grids, forms, and navigation bars are used to create a responsive and user-friendly interface.
+
+Web server (e.g., Apache or Nginx)
+A web server is software that runs on a computer and responds to incoming HTTP requests from web browsers. In the Student Helpdesk project, a web server such as Apache or Nginx is required to serve the web pages and handle requests from users.
+
+Code editor (e.g., VS Code, Sublime Text)
+A code editor is a software tool used for writing, editing, and debugging code. In the Student Helpdesk project, a code editor such as VS Code or Sublime Text is recommended for editing HTML, CSS, JavaScript, and PHP files.
+
+Git version control system
+Git is a version control system used for tracking changes to code and collaborating with other developers. In the Student Helpdesk project, Git can be used to track changes to the code, share code with other developers, and roll back changes if necessary.
+
+
 ## Languages
-HTML: HTML stands for Hypertext Markup Language, which is used for creating the structure and content of web pages. In the Student Helpdesk project, HTML is used to define the layout and structure of the web pages that make up the application. HTML tags are used to create elements such as forms, buttons, text fields, and other user interface components.
+HTML: 
 
-CSS: CSS stands for Cascading Style Sheets and is used to add style and formatting to web pages. In the Student Helpdesk project, CSS is used to define the visual appearance of the web pages, including the colors, fonts, and layout. CSS stylesheets are linked to the HTML pages to apply the desired visual design.
+CSS: 
+JavaScript: 
 
-JavaScript: JavaScript is a programming language used for adding interactive features and behavior to web pages. In the Student Helpdesk project, JavaScript is used to validate form inputs, perform client-side data manipulation, and handle events such as button clicks and form submissions.
-
-PHP: PHP stands for Hypertext Preprocessor, and it is a server-side scripting language used for building dynamic web applications. In the Student Helpdesk project, PHP is used for handling server-side requests, processing form data, connecting to databases, and generating dynamic content.
+PHP:
 ## Hardware Requirments
 ## Recommended modules
 ## Troubleshooting
@@ -118,8 +139,26 @@ Maintainers
 The optional maintainer section lists current project maintainers. The section can also list historical maintainers.
 
 This section replaces any legacy, standalone MAINTAINERS.md file.
+# Features
++ Course information: students can access information on course schedules, syllabi, assignments, and more.
++ Tutoring services: students can schedule appointments with tutors and access online resources to help them succeed in their courses.
++ Academic resources: students can find information on academic policies, procedures, and resources to support their academic success.
++ Contact form: students can reach out to the help desk team for support and assistance.
+# License
+This project is licensed under the MIT License.
 
 ## Maintainers
 
 - Mohd Arham - [sun](https://www.drupal.org/u/sun)
 
+
+
+Index: This is the main landing page of the website, where students can learn about the different services offered by the help desk. It includes a brief introduction of the help desk and a list of the different services provided.
+
+Login panel: This is a secure login panel where registered students can log in to access their account. The login panel is protected with a strong password policy and secure authentication.
+
+FAQs: This section includes a list of frequently asked questions related to different services provided by the help desk. This is a helpful resource for students who need quick answers to common queries.
+
+Discussion forum: This section provides a platform for students to ask questions, seek advice and share knowledge with other students. It includes a discussion board where students can create threads and participate in discussions.
+
+Overall, the student help desk website is designed to provide students with the necessary resources and support they need to succeed academically.
