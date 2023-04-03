@@ -7,11 +7,12 @@
 - Objective
 - Software Requirments
 - Hardware Requirments
+- Tools Used
 - Installation
 - Configuration
-- Tools Used
-- Result Analysis
 - Features
+- Benefits
+- Result Analysis
 - References
 - License
 - Maintainers
@@ -32,6 +33,17 @@ In order to run this project, you will need to have the following software insta
 + RAM: 2GB or higher (recommended)
 + Storage: 50GB or more
 + Bandwidth: 1Mbps or higher (depending on expected traffic)
+## Tools Used
+The following tools were used in the development of this project:
++ Visual Studio Code (Version: 1.77.0)
++ HTML5
++ CSS3
++ JavaScript
++ PHP 7.4
++ MySQL 8.0
++ Apache 2.4
++ XAMPP 8.0.12
++ Github
 ## Installation
 To run the website locally, follow these steps:
 1. Clone the repository to your local machine
@@ -59,19 +71,6 @@ http://localhost/Arham Minor Project
 8 - Deploy the project to the local development environment.
 
 9 - Deploy the project to a live server or web hosting service if necessary.
-## Tools Used
-The following tools were used in the development of this project:
-+ Visual Studio Code (Version: 1.77.0)
-+ HTML5
-+ CSS3
-+ JavaScript
-+ PHP 7.4
-+ MySQL 8.0
-+ Apache 2.4
-+ XAMPP 8.0.12
-+ Github
-## Result Analysis
-Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScript, and PHP to create a user-friendly interface that allows students to request help and support from their educational institution. The project features support request handling, a messaging system, and analytics and reports to help staff members provide effective support and improve their performance.
 ## Features
 + Course information: students can access information on course schedules, syllabi, assignments, and more.
 + Tutoring services: students can schedule appointments with tutors and access online resources to help them succeed in their courses.
@@ -89,6 +88,8 @@ There are several benefits of a web-based student helpdesk management system, in
 + Enhanced communication: A helpdesk management system can facilitate communication between students and helpdesk staff, providing an effective and efficient means of resolving issues and answering questions.
 + Data management: A web-based system can track and manage data related to student inquiries and support requests, providing valuable insights into common issues and areas for improvement.
 + Cost-effective: A helpdesk management system can reduce the cost of providing support services, by streamlining processes, reducing staff workload and automating tasks.
+## Result Analysis
+Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScript, and PHP to create a user-friendly interface that allows students to request help and support from their educational institution. The project features support request handling, a messaging system, and analytics and reports to help staff members provide effective support and improve their performance.
 ## References 
 1 - W3Schools. (n.d.). HTML5 Tutorial. Retrieved from https://www.w3schools.com/html/default.asp
 
