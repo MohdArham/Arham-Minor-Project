@@ -5,7 +5,9 @@
 ## Table of contents
 
 - Introduction
-- Recommended modules
+- Problem Statement
+- Objective
+- Requirments
 - Installation
 - Configuration
 - Troubleshooting
