@@ -109,4 +109,4 @@ Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScrip
 This project is licensed under the MIT License.
 
 ## Maintainers
-- Mohd Arham - [sun](https://www.drupal.org/u/sun)
+- Mohd Arham
