@@ -38,17 +38,24 @@ To run the website locally, follow these steps:
 5. Launch the website by opening the `index.html` file in your web browser
 
 ## Configuration
-1 - Install `APACHE` server and `XAMPP` for setup of localhost environment.
-2 - Download or clone the project files from your code repository (e.g. GitHub) to a local directory on your computer.
-3 - Move the project directory to the appropriate location on your web server, such as the `htdocs` folder for Apache.
+1 - Install APACHE server and XAMPP for setup of localhost environment 
+
+2 - Download or clone the project files from your code repository (e.g. GitHub) to a local directory on your computer
+
+3 - Move the project directory to the appropriate location on your web server, such as the `htdocs` folder for Apache
+
 4 - Import the project's MySQL database to your local MySQL server. This can be done using a tool `phpMyAdmin`
-5 - Configure the database connection settings in the `PHP` files to match your local `MySQL` server.
-6 - Set up any necessary dependencies for the project, such as libraries or frameworks.
+
+5 - Configure the database connection settings in the `PHP` files to match your local `MySQL` server
+
+6 - Set up any necessary dependencies for the project, such as libraries or frameworks
+
 7 - Test the project by opening a web browser and navigating to the appropriate URL
 ```
 http://localhost/Arham Minor Project
 ```
 8 - Deploy the project to the local development environment.
+
 9 - Deploy the project to a live server or web hosting service if necessary.
 
 
@@ -84,13 +91,20 @@ Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScrip
 + Academic resources: students can find information on academic policies, procedures, and resources to support their academic success.
 + Contact form: students can reach out to the help desk team for support and assistance.
 ## Refernces 
-1 - W3Schools. (n.d.). HTML5 Tutorial. Retrieved from https://www.w3schools.com/html/default.asp. 
+1 - W3Schools. (n.d.). HTML5 Tutorial. Retrieved from https://www.w3schools.com/html/default.asp
+
 2 - Mozilla Developer Network. (n.d.). CSS. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS
+
 3 - JavaScript. (n.d.). JavaScript Tutorial. Retrieved from https://www.javascript.com/learn/javascript/first-steps/what-is-javascript
+
 4 - PHP. (n.d.). PHP Tutorial. Retrieved from https://www.php.net/manual/en/tutorial.php
+
 5 - MySQL. (n.d.). MySQL Documentation. Retrieved from https://dev.mysql.com/doc/
+
 6 - Apache HTTP Server. (n.d.). Apache HTTP Server Documentation. Retrieved from https://httpd.apache.org/docs/
+
 7 - XAMPP. (n.d.). XAMPP Documentation. Retrieved from https://www.apachefriends.org/docs/
+
 # License
 This project is licensed under the MIT License.
 
