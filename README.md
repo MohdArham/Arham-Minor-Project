@@ -1,5 +1,6 @@
-# Arham-Minor-Project 
-**Project - Student HelpDesk Management System**
+# Arham-Minor-Project
+# Project - Student HelpDesk Management System
+
 
 
 ## Table of contents
@@ -11,13 +12,14 @@
 - Installation
 - Maintainers
 
-# Introduction
+## Introduction
 
 A web-based student helpdesk system is an online platform that enables students to request academic, technical, and administrative support from their educational institution.
 
 The system is accessible from anywhere with an internet connection, making it easier for students to receive timely assistance and improve their academic experience.
 
 ## Problem Statement
+The problem is to create a web-based system to facilitate student helpdesk support for a university or college. The system should be able to receive requests from students and route them to appropriate support staff. The system should be able to track the status of each request and provide updates to the student who submitted it.
 
 
 
@@ -42,10 +44,10 @@ The optional recommended modules section lists modules that are not required, bu
 To run the website locally, follow these steps:
 
 1. Clone the repository to your local machine
-2. Set up a local server environment using XAMPP or similar software
+2. Set up a local server environment using XAMPP software
 3. Import the SQL database provided in the database folder
-4. Update the database connection settings in the config.php file
-5. Launch the website by opening the index.html file in your web browser
+4. Update the database connection settings in the all files containing `.php` file
+5. Launch the website by opening the `index.html` file in your web browser
 
 ## Configuration
 
