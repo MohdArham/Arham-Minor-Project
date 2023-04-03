@@ -427,7 +427,7 @@
          <span>your number</span>
          <input type="number" required placeholder="Enter your mobile number" max="9999999999" min="0" name="number" class="box" onkeypress="if(this.value.length == 10) return false;">
          <span>select course</span>
-         <select name="couses" class="box" required>
+         <select name="course" class="box" required>
             <option value="" disabled selected>select the course --</option>
             <option value="Computer Science">Computer Science</option>
             <option value="Electronics">Electronics</option>

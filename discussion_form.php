@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discussion Form</title>
+	<!-- Link to CSS file -->
+	<link rel="stylesheet" type="text/css" href="css/discussion_form.css">
+	
+	<!-- Link to JS file -->
+	<script src="discussion_form.js"></script>
+</head>
+<body>
+	<h1>Discussion Form</h1>
+	<form method="post" action="submit.php">
+		<label for="author">Name:</label>
+		<input type="text" id="author" name="author" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="title">Topic:</label>
+		<input type="text" id="title" name="title" required>
+
+		<label for="description">Message:</label>
+		<textarea id="description" name="description" required></textarea>
+
+		<button type="submit">Submit</button>
+	</form>
+
+
+	<div class="redirect-link">
+		<a href="index.php">Go back to homepage</a>
+	</div>
+
+
+</body>
+</html>
