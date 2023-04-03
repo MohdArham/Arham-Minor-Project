@@ -1,5 +1,5 @@
 # Arham-Minor-Project
-# Project - Student HelpDesk Management System
+# Project - STUDENT HELPDESK MANAGEMENT SYSTEM
 
 
 ## Table of contents
@@ -26,13 +26,13 @@ This software will fulfill customer’s need by providing them technical support
 The software is an intranet based software which can be used within the organization. It is basically a customer care management system. This software is very efficient in future time because it is an E-help desk system which tries to solve the problems of all the customer via internet medium and digital medium and thus reducing even the working time for the users too, to solve their problems and queries. 
 ## Software Requirements
 In order to run this project, you will need to have the following software installed on your system:
-+ XAMPP (Version 8.0.12 or higher) - used for running the Apache web server and MySQL database.
-+ A web browser (e.g. Google Chrome, Mozilla Firefox, etc.) - used for accessing the web pages served by the Apache web server.
++ XAMPP (Version 8.0.12 or higher) - Used for running the Apache web server and MySQL database.
++ A web browser (e.g. Google Chrome, Mozilla Firefox, etc.) - Used for accessing the web pages served by the Apache web server.
 ## Hardware Requirments
-+ Processor: Dual-core or higher (recommended)
-+ RAM: 2GB or higher (recommended)
++ Processor: Dual-core or higher (Recommended)
++ RAM: 2GB or Higher (Recommended)
 + Storage: 50GB or more
-+ Bandwidth: 1Mbps or higher (depending on expected traffic)
++ Bandwidth: 1Mbps or higher (Depending on expected traffic)
 ## Tools Used
 The following tools were used in the development of this project:
 + Visual Studio Code (Version: 1.77.0)
@@ -45,7 +45,7 @@ The following tools were used in the development of this project:
 + XAMPP 8.0.12
 + Github
 ## Installation
-To run the website locally, follow these steps:
+To run the website locally, Follow these steps:
 1. Clone the repository to your local machine
 2. Set up a local server environment using XAMPP software
 3. Import the SQL database provided in the database folder
@@ -66,22 +66,22 @@ To run the website locally, follow these steps:
 
 7 - Test the project by opening a web browser and navigating to the appropriate URL
 ```
-http://localhost/Arham Minor Project
+http://localhost/ArhamMinorProject
 ```
-8 - Deploy the project to the local development environment.
+8 - Deploy the project to the local development environment
 
-9 - Deploy the project to a live server or web hosting service if necessary.
+9 - Deploy the project to a live server or web hosting service if necessary
 ## Features
-+ Course information: students can access information on course schedules, syllabi, assignments, and more.
-+ Tutoring services: students can schedule appointments with tutors and access online resources to help them succeed in their courses.
-+ Academic resources: students can find information on academic policies, procedures, and resources to support their academic success.
-+ Contact form: students can reach out to the help desk team for support and assistance.
-+ Feedback system: students can provide feedback on their support experience, which can be used to improve the helpdesk system and ensure that students receive high-quality assistance.
-+ Social media integration: students can connect with the helpdesk team through social media channels like Twitter and Facebook, providing another avenue for support and engagement.
-+ Knowledge base: students can access a database of frequently asked questions and articles related to academic and technical issues.
-+ FAQ section: students can access a list of frequently asked questions and answers related to common academic and technical issues.
++ Course Information: Students can access information on course schedules, syllabi, assignments, and more.
++ Tutoring Services: Students can schedule appointments with tutors and access online resources to help them succeed in their courses.
++ Academic Resources: Students can find information on academic policies, procedures, and resources to support their academic success.
++ Contact Form: Students can reach out to the help desk team for support and assistance.
++ Feedback System: Students can provide feedback on their support experience, which can be used to improve the helpdesk system and ensure that students receive high-quality assistance.
++ Social Media Integration: Students can connect with the helpdesk team through social media channels like Twitter and Facebook, providing another avenue for support and engagement.
++ Knowledge Base: Students can access a database of frequently asked questions and articles related to academic and technical issues.
++ FAQ Section: Students can access a list of frequently asked questions and answers related to common academic and technical issues.
 ## Benefits
-There are several benefits of a web-based student helpdesk management system, including:
+There are several benefits of a web-based student Helpdesk Management System, including:
 + Accessibility: A web-based system can be accessed from anywhere with an internet connection, allowing students to receive support and assistance from anywhere at any time.
 + Efficiency: A helpdesk management system can streamline and automate the process of handling student inquiries, improving response times and reducing the workload for helpdesk staff.
 + Improved student experience: By providing timely and efficient support, a helpdesk management system can improve the overall student experience and satisfaction with the educational institution.
