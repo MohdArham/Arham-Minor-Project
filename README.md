@@ -4,17 +4,23 @@
 
 ## Table of contents
 - Introduction
-- Problem Statement
 - Objective
-- Requirments
+- Software Requirments
+- Hardware Requirments
 - Installation
+- Configuration
+- Tools Used
+- Result Analysis
+- Features
+- References
+- License
 - Maintainers
 
 
 ## Introduction
 A web-based student helpdesk system is an online platform that enables students to request academic, technical, and administrative support from their educational institution.
 
-The system is accessible from anywhere with an internet connection, making it easier for students to receive timely assistance and improve their academic experience.
+The system is accessible from anywhere with an internet connection, making it easier for students to receive timely assistance and improve their academic experience. Overall, a web-based student helpdesk system is a powerful tool that can enhance the academic experience for students and help institutions provide better support and services.
 
 
 ## Objective
@@ -28,6 +34,11 @@ In order to run this project, you will need to have the following software insta
 + XAMPP (Version 8.0.12 or higher) - used for running the Apache web server and MySQL database.
 + A web browser (e.g. Google Chrome, Mozilla Firefox, etc.) - used for accessing the web pages served by the Apache web server.
 
+## Hardware Requirments
++ Processor: Dual-core or higher (recommended)
++ RAM: 2GB or higher (recommended)
++ Storage: 50GB or more
++ Bandwidth: 1Mbps or higher (depending on expected traffic)
 
 ## Installation
 To run the website locally, follow these steps:
@@ -77,11 +88,7 @@ Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScrip
 
 
 
-## Hardware Requirments
-+ Processor: Dual-core or higher (recommended)
-+ RAM: 2GB or higher (recommended)
-+ Storage: 50GB or more
-+ Bandwidth: 1Mbps or higher (depending on expected traffic)
+
 
 
 
@@ -90,7 +97,7 @@ Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScrip
 + Tutoring services: students can schedule appointments with tutors and access online resources to help them succeed in their courses.
 + Academic resources: students can find information on academic policies, procedures, and resources to support their academic success.
 + Contact form: students can reach out to the help desk team for support and assistance.
-## Refernces 
+## References 
 1 - W3Schools. (n.d.). HTML5 Tutorial. Retrieved from https://www.w3schools.com/html/default.asp
 
 2 - Mozilla Developer Network. (n.d.). CSS. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS
