@@ -31,17 +31,20 @@
       <a href="https://jamiahamdard.edu/" target="_blank" class="logo" ><h2>Jamia Hamdard</h2></a>
 
       <nav class="navbar">
-         <a href="login.php">Sign In</a>
+       
          <a href="#home">home</a>
          <a href="#about">about</a>
          <a href="#courses">courses</a>
          <a href="#teachers">teachers</a>
          <a href="#reviews">reviews</a>
          <a href="#contact">contact</a>
+       
         
 
 <!-- Faq section needs to be improved -->
          <a href="faq.html">Faqs</a>
+
+         <a href="login.php">Discussion Forum</a>
 
       </nav>
 

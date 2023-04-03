@@ -24,7 +24,7 @@ if (isset($_POST['login'])) {
     if (mysqli_num_rows($result) == 1) {
         // Valid login credentials
         // Redirect to dashboard or home page
-        header('Location: index.php');
+        header('Location: discussion_form.php');
     } else {
         // Invalid login credentials
         echo "Invalid username or password!";
