@@ -19,6 +19,12 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $number = $_POST['number'];
 $course = $_POST['course'];
+// if(isset($_POST['course'])){
+//     $course = $_POST['course'];
+//  } else {
+//     $course = "";
+//  }
+ 
 $gender = $_POST['gender'];
 
 // Escape user inputs for security

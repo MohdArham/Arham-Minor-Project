@@ -1,55 +1,41 @@
 <?php
-$servername = "localhost"; // Change this to your server name
-$username = "root"; // Change this to your MySQL username
-$password = ""; // Change this to your MySQL password
-$dbname = "loginp"; // Change this to your database name
+// MySQL database credentials
+$host = 'localhost';
+$username = 'root';
+$password = '';
+$database = 'loginp';
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+// Establishing MySQL database connection
+$conn = mysqli_connect($host, $username, $password, $database);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+// Checking MySQL database connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 
-// Check if form is submitted
-if(isset($_POST['login'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    // Escape user inputs for security
-    $username = mysqli_real_escape_string($conn, $username);
-    $password = mysqli_real_escape_string($conn, $password);
-
-    // Hash the password for security
-    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-
-// Prepare and bind parameters to the insert statement
-$stmt = $conn->prepare("INSERT INTO users (username, password) VALUES (?, ?)");
-$stmt->bind_param("ss", $username, $hashed_password);
-
-// Execute the statement
-if ($stmt->execute()) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $stmt->error;
-}
-
-// Close statement
-$stmt->close();
-
-
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+// Validating login credentials
+if (isset($_POST['login'])) {
+    $username = mysqli_real_escape_string($conn, $_POST['username']);
+    $password = mysqli_real_escape_string($conn, $_POST['password']);
+    
+    $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
+    $result = mysqli_query($conn, $query);
+    
+    if (mysqli_num_rows($result) == 1) {
+        // Valid login credentials
+        // Redirect to dashboard or home page
+        header('Location: index.php');
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        // Invalid login credentials
+        echo "Invalid username or password!";
     }
-	
 }
 
-// Close connection
-$conn->close();
+
+// Closing MySQL database connection
+mysqli_close($conn);
 ?>
+
 
 
 
@@ -70,7 +56,7 @@ $conn->close();
 <body>
 	<div class="container">
 	<h1>Login Page</h1>
-	<form action="#" method="post" onsubmit="return validateForm()">
+	<form action= "login.php" method="post" onsubmit="return validateForm()">
 		<div class="form-group">
 			<label for="username"><h2>Username:</h2></label>
 			<input type="text" id="username" name="username" placeholder="Enter your username">
