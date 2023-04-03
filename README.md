@@ -84,7 +84,7 @@ Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScrip
 + Academic resources: students can find information on academic policies, procedures, and resources to support their academic success.
 + Contact form: students can reach out to the help desk team for support and assistance.
 ## Refernces 
-1 - W3Schools. (n.d.). HTML5 Tutorial. Retrieved from https://www.w3schools.com/html/default.asp
+1 - W3Schools. (n.d.). HTML5 Tutorial. Retrieved from https://www.w3schools.com/html/default.asp. 
 2 - Mozilla Developer Network. (n.d.). CSS. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS
 3 - JavaScript. (n.d.). JavaScript Tutorial. Retrieved from https://www.javascript.com/learn/javascript/first-steps/what-is-javascript
 4 - PHP. (n.d.). PHP Tutorial. Retrieved from https://www.php.net/manual/en/tutorial.php
