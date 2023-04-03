@@ -21,37 +21,52 @@ A web-based student helpdesk system is an online platform that enables students 
 
 The system is accessible from anywhere with an internet connection, making it easier for students to receive timely assistance and improve their academic experience.
 
-**Problem Statement**
+# Problem Statement
 
 
 
-**Objective**
+# Objective
 The Help Desk Management System is a set of programs which run as a software providing assistance to all the complaints, queries and services to the customers within a set of organization. It is a web based software which has made the working procedure of organization much easy.
 This software will fulfill customer’s need by providing them technical support for their relevant issues as well as time period considered for solving the problems will be much shorter. All the queries and issues that will be posted in portal will be saved into the database for future reference. 
 The software is an intranet based software which can be used within the organization. It is basically a customer care management system. This software is very efficient in future time because it is an E-help desk system which tries to solve the problems of all the customer via internet medium and digital medium and thus reducing even the working time for the users too, to solve their problems and queries. 
 
 
-**Requirements**
+# Requirements
 
 
 
 
 
-**Installation**
+# Installation
 
 
 
 
-**Configuration**
+# Configuration
 
 
 
 
-Troubleshooting
+# Troubleshooting
 
 
-**Maintainers**
+# Maintainers
+# Tools Used
+# Methods
+# Result Analysis
+Overall, the Student Helpdesk project uses a combination of HTML, CSS, JavaScript, and PHP to create a user-friendly interface that allows students to request help and support from their educational institution. The project features support request handling, a messaging system, and analytics and reports to help staff members provide effective support and improve their performance.
+# Refernces
+# Software Requirements
+# Technology Used
+# Languages
+HTML: HTML stands for Hypertext Markup Language, which is used for creating the structure and content of web pages. In the Student Helpdesk project, HTML is used to define the layout and structure of the web pages that make up the application. HTML tags are used to create elements such as forms, buttons, text fields, and other user interface components.
 
+CSS: CSS stands for Cascading Style Sheets and is used to add style and formatting to web pages. In the Student Helpdesk project, CSS is used to define the visual appearance of the web pages, including the colors, fonts, and layout. CSS stylesheets are linked to the HTML pages to apply the desired visual design.
+
+JavaScript: JavaScript is a programming language used for adding interactive features and behavior to web pages. In the Student Helpdesk project, JavaScript is used to validate form inputs, perform client-side data manipulation, and handle events such as button clicks and form submissions.
+
+PHP: PHP stands for Hypertext Preprocessor, and it is a server-side scripting language used for building dynamic web applications. In the Student Helpdesk project, PHP is used for handling server-side requests, processing form data, connecting to databases, and generating dynamic content.
+# Hardware Requirments
 
 
 
