@@ -1,4 +1,4 @@
-//js for index.php page
+//Java Script for index.php page
 let menuBtn = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .flex .navbar');
 

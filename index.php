@@ -5,23 +5,14 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Complete Responsive Online Student Help Desk</title>
-
-   <!-- swiper css link  -->
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-
-   <!-- font awesome cdn link for fb twitter ln insta yt logo design -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-   <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
-   
-   <!-- custom js login file link  -->
    <script src="Login/login.js"></script>
-
 </head>
 <body>
    
-<!-- header section starts  -->
+<!-- Header Section Starts  -->
 
 <header class="header">
    
@@ -41,7 +32,7 @@
        
         
 
-<!-- Faq section needs to be improved -->
+<!-- Faq Section needs to be improved - Updated -->
          <a href="faq.html">Faqs</a>
 
          <a href="login.php">Discussion Forum</a>
@@ -54,7 +45,7 @@
 
 </header>
 
-<!-- header section ends -->
+<!--Header Section Ends -->
 
 <!-- home section starts  -->
 
@@ -479,27 +470,10 @@
 </footer>
 
 <!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- swiper js link  -->
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-
 <!-- CLICK HERE FOR ADMISSIONS HTML -->
 <div style="background: #c4122f; padding: 7px 0;">
    <h2 style="text-align: center; margin: 0;">
@@ -509,74 +483,6 @@
    </h2>
 </div>
 
-
-
-
-
-
-
-
-
-
-    <!-- <style>
-    body {
-        font-family: 'Rubik', sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #fff;
-        margin: 0;
-        padding: 0;
-    }
-    
-    h2 {
-        font-size: 28px;
-        font-weight: 600;
-        margin-bottom: 20px;
-    }
-    
-    p {
-        margin-bottom: 10px;
-    }
-    
-    .map-container {
-        flex: 1;
-        margin-left: 20px;
-    }
-    
-    .map-container iframe {
-        width: 100%;
-        height: 450px;
-        border: 0;
-    }
-    
-    @media screen and (max-width: 767px) {
-        body {
-            font-size: 14px;
-        }
-        
-        h2 {
-            font-size: 24px;
-        }
-        
-        .map-container {
-            margin-left: 0;
-            margin-top: 20px;
-        }
-    }
-</style>
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-    <div style="flex: 1;">
-        <h2>About Jamia Hamdard</h2>
-        <p>Jamia Hamdard is a research-based institution and a Deemed to be University located in New Delhi, India. It was established in 1989 by the Hamdard National Foundation.</p>
-        <p>The university has several faculties and schools offering courses in various fields including Medicine, Pharmacy, Nursing, Management, Engineering, and Law.</p>
-        <p>The campus is spread across 90 acres of land and is home to several research centers and institutes. The Hakim Mohammed Said Central Library on campus is one of the largest medical libraries in Asia.</p>
-        <h2>Directions<h2>
-    </div>
-    <div style="flex: 1;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.8062054480856!2d77.24830111468599!3d28.515477782464107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce16dfedeaadf%3A0xcd4cd1feeeaad87c!2sHakim%20Mohammed%20Saeed%20Central%20Library!5e0!3m2!1sen!2sin!4v1680721043503!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-</div> -->
 <footer class="jamia-body">
    <section>
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
