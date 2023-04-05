@@ -73,6 +73,30 @@ mysqli_close($conn);
 	</form>
 </div>
 
+
+
+<div class="redirect-link">
+		<a href="index.php">Go back to homepage</a>
+		<style>
+		.redirect-link {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+}
+.redirect-link a {
+	color: #4CAF50;
+	text-decoration: none;
+}
+.redirect-link a:hover {
+	text-decoration: underline;
+}
+</style>
+</div>
+
+
+
+
  <footer class="footer">
 
       <section>
@@ -89,6 +113,11 @@ mysqli_close($conn);
       </section>
    
    </footer>
+
+
+
+
+  
 
 
 <!-- 
