@@ -38,6 +38,18 @@ textarea {
 	font-size: 16px;
 }
 
+
+input[type="email"] {
+    width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+}
+
+
+
 button[type="submit"] {
 	background-color: #4CAF50;
 	color: #fff;
