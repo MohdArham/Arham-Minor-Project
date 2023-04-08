@@ -16,9 +16,11 @@
   $title = $_POST["title"];
   $description = $_POST["description"];
   $author = $_POST["author"];
+  $email = $_POST["email"];
+  
 
   // Insert the data into the database
-  $sql = "INSERT INTO discussions (title, description, author) VALUES ('$title', '$description', '$author')";
+  $sql = "INSERT INTO DiscussionsData (title, description, author, email) VALUES ('$title', '$description', '$author', '$email')";
 
   if ($conn->query($sql) === TRUE) {
     echo "Discussion saved successfully";

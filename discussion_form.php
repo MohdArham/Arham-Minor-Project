@@ -16,7 +16,7 @@
 		<input type="text" id="author" name="author" required>
 
 		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" required>
+		<input type="text" id="email" name="email" required>
 
 		<label for="title">Topic:</label>
 		<input type="text" id="title" name="title" required>
