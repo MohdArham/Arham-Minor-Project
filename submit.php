@@ -22,7 +22,8 @@
   // Insert the data into the database
   $sql = "INSERT INTO discussions (title, description, author, email) VALUES ('$title', '$description', '$author', '$email')";
   if ($conn->query($sql) === TRUE) {
-    echo "Discussion saved successfully";
+    echo "Discussion saved successfully. You will be redirected to the homepage in 5 seconds.";
+    echo "<script>setTimeout(function(){window.location.href='index.php'},5000);</script>";
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   }
