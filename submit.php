@@ -20,8 +20,7 @@
   
 
   // Insert the data into the database
-  $sql = "INSERT INTO DiscussionsData (title, description, author, email) VALUES ('$title', '$description', '$author', '$email')";
-
+  $sql = "INSERT INTO discussions (title, description, author, email) VALUES ('$title', '$description', '$author', '$email')";
   if ($conn->query($sql) === TRUE) {
     echo "Discussion saved successfully";
   } else {
